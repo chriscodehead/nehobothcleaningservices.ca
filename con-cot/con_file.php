@@ -8,7 +8,7 @@
     function DBConnections()
     {
       $host_ = 'localhost';
-      $dbname_ = 'familyanchor';
+      $dbname_ = 'nehoboth';
       $user_ = 'root';
       $pass_ = '';
       try {

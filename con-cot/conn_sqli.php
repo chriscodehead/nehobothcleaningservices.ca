@@ -1,6 +1,6 @@
 <?php
 $host_me = 'localhost';
-$databasename_2 = 'familyanchor';
+$databasename_2 = 'nehoboth';
 $username_we = 'root';
 $password_co = '';
 $link = mysqli_connect($host_me, $username_we, $password_co) or header("location:404.html");
@@ -11,7 +11,7 @@ if (mysqli_select_db($link, $databasename_2)) {
 function dbpass()
 {
 	$server_ = 'localhost';
-	$database_ = 'familyanchor';
+	$database_ = 'nehoboth';
 	$user_ = 'root';
 	$pass_ = '';
 	$con = @mysqli_connect($server_, $user_, $pass_, $database_);
