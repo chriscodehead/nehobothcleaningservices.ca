@@ -70,5 +70,62 @@
    transform: scale(1.1);
    /* expands the image by 10% */
   }
+
+  /* Pagination container */
+  .mil-page-pagination {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   /* space between items */
+   padding: 0;
+   margin: 20px 0;
+  }
+
+  /* Pagination items */
+  .mil-page-pagination li {
+   display: inline-block;
+  }
+
+  /* Links */
+  .mil-page-pagination li a {
+   display: block;
+   padding: 8px 14px;
+   background: #f5f5f5;
+   color: #333;
+   border-radius: 6px;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 500;
+   transition: all 0.3s ease;
+   border: 1px solid #ddd;
+  }
+
+  /* Hover effect */
+  .mil-page-pagination li a:hover {
+   background: #007bff;
+   /* primary blue */
+   color: #fff;
+   border-color: #007bff;
+  }
+
+  /* Active page */
+  .mil-page-pagination li.mil-current a {
+   background: #007bff;
+   color: #fff;
+   font-weight: bold;
+   border-color: #007bff;
+   cursor: default;
+  }
+
+  /* Disabled state */
+  .mil-page-pagination li.disabled a {
+   background: #e9ecef;
+   color: #aaa;
+   pointer-events: none;
+   border-color: #ddd;
+   cursor: not-allowed;
+  }
  </style>
 </head>

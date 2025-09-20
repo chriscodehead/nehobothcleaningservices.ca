@@ -73,18 +73,15 @@
             </a>
             <ul class="navbar-nav">
                <li class="nav-item">
-                  <a class="nav-link p-0 <?php print @$active4; ?>" href="gallery">Gallery</a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle <?php print @$active5; ?>" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Blogs
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <a class="dropdown-item" href="blog">Blog</a>
-                  </div>
+                  <a class="nav-link p-0 <?php print @$active4; ?>" href="blog">Blog</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link p-0 <?php print @$active6; ?>" href="contact">Contact Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link p-0 <?php print @$active6; ?>" href="contact">
+                     <button class="generic-btn d-inline-block btn btn-primary">Book a call!</button>
+                  </a>
                </li>
             </ul>
          </div>
