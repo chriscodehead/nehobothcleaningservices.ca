@@ -159,6 +159,75 @@ require_once('head.php'); ?>
     </div>
   </section>
 
+  <section class="w-100 float-left project-con gallery-project position-relative">
+    <div class="wrapper">
+      <div class="project-title text-center">
+        <h2 data-aos="fade-up" data-aos-duration="600"> Our Project That <span class="color-01d0cc d-block">we
+            have completed</span></h2>
+      </div>
+      <div class="gellery-page-project position-relative">
+        <div class="position-relative project-box1">
+          <div class="project-box">
+
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="project-item position-relative" data-aos="fade-up" data-aos-duration="600">
+                  <figure class="mb-0">
+                    <img width="100%" src="files/before1.jpeg" alt="project-img">
+                  </figure>
+                  <div class="project-item-content text-white">
+                    <h3>Before</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="project-item position-relative" data-aos="fade-up" data-aos-duration="600">
+                  <figure class="mb-0">
+                    <img width="100%" src="files/after1.jpeg" alt="project-img">
+                  </figure>
+                  <div class="project-item-content text-white">
+                    <h3>After</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="project-item position-relative" data-aos="fade-up" data-aos-duration="600">
+                  <figure class="mb-0">
+                    <img width="100%" src="files/before2.jpeg" alt="project-img">
+                  </figure>
+                  <div class="project-item-content text-white">
+                    <h3>Before</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="project-item position-relative" data-aos="fade-up" data-aos-duration="600">
+                  <figure class="mb-0">
+                    <img width="100%" src="files/after2.jpeg" alt="project-img">
+                  </figure>
+                  <div class="project-item-content text-white">
+                    <h3>After</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <center>
+              <div style="margin-top: 50px;" class="generic-btn d-block text-center" data-aos="fade-up" data-aos-duration="600">
+                <a href="gallery">View All</a>
+              </div>
+            </center>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="w-100 float-left team-con position-relative">
     <div class="wrapper">
       <div class="project-title text-center">
@@ -298,7 +367,7 @@ require_once('head.php'); ?>
       </div>
     </div>
   </section>
-  <!-- BLOG SECTION -->
+
 
 
   <?php require_once('footer.php'); ?>
